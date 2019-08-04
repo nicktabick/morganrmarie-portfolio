@@ -9,9 +9,9 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout>
-        <div className="container">
-          <h1 className="title">{post.welcomeToMyBlog}</h1>
-          <h3 className="subtitle">{post.subtitle}</h3>
+        <div className="blogpost-container">
+          <h1 className="blogpost-title">{post.welcomeToMyBlog}</h1>
+          <h3 className="blogpost-subtitle">{post.subtitle}</h3>
           <img alt="blogpost-visual" src={post.image.file.url}/>
           <div className="content" dangerouslySetInnerHTML={{ __html: post.content.childContentfulRichText.html }}/>
           <h5 className="author">Author: Morgan Richardson</h5>

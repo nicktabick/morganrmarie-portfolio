@@ -1,16 +1,16 @@
-.container {
+.blogpost-container {
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 8rem;
   margin-bottom: 20rem;
 }
 
-.title {
+.blogpost-title {
   text-transform: uppercase;
   font-size: 40px;
 }
 
-.subtitle {
+.blogpost-subtitle {
   font-size: 20px;
   font-weight: 300;
   text-transform: uppercase;
@@ -39,17 +39,18 @@ img {
 }
 
 @media (max-width: 500px) {
-  .container {
+  .blogpost-container {
+    margin-top: 80px;
     margin-left: 10%!important;
     margin-right: 10%;
     margin-bottom: 4rem;
   }
 
-  .title {
+  .blogpost-title {
     font-size: 14px;
   }
 
-  .subtitle {
+  .blogpost-subtitle {
     margin-top: 10px;
     font-size: 12px;
   }
