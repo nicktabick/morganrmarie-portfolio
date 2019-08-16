@@ -101,4 +101,8 @@ a:hover:after {
     margin-top: 3.3rem;
     margin-left: -170px;
   }
+
+  li {
+    font-size: 30px;
+  }
 }

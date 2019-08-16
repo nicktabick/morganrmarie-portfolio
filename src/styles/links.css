@@ -1,0 +1,24 @@
+.link-container {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.link-box {
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+  height: 50px;
+  border: 2px solid white;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.a-contact-link {
+  text-decoration: none;
+}
+
+.a-contact-link:hover {
+  cursor: pointer;
+}
