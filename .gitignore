@@ -17,3 +17,5 @@ words/
 
 ### Environment Variables ###
 .env
+public/page-data
+public/about
