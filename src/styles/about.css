@@ -25,6 +25,15 @@
   margin-bottom: 100px;
 }
 
+.instagram-link-href {
+  text-decoration: none;
+}
+
+.pink-link {
+  text-decoration: underline;
+  text-decoration-color: #ffc0cb;
+}
+
 @media only screen and (max-width: 1300px) {
   .left {
     display: none;
