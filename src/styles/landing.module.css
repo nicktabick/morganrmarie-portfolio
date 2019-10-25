@@ -41,6 +41,18 @@
   margin-top: -50%;
 }
 
+.contactInfo {
+  text-align: center;
+  font-weight: 300;
+}
+
+.socialIcons {
+  padding: 10px;
+  font-size: 30px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 600px) {
   .me {
     width: 80%;
