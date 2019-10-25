@@ -1,5 +1,5 @@
 {
-  "name": "Morgan Richardson's Portfolio",
+  "name": "morgan-codes-portfolio",
   "private": true,
   "description": "My current portfolio",
   "version": "0.1.0",
@@ -14,6 +14,11 @@
   },
   "dependencies": {
     "@contentful/gatsby-transformer-contentful-richtext": "^13.1.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "core-js": "^3.3.3",
     "dotenv": "^8.0.0",
     "gatsby": "^2.13.21",
     "gatsby-plugin-react-helmet": "^3.1.2",
