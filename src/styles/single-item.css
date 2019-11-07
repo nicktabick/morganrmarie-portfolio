@@ -1,0 +1,7 @@
+.item-container {
+    width: 285px;
+    height: 400px;
+    border: solid 2px black;
+    display: inline-block;
+    margin: 20px;
+}
