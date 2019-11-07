@@ -17,6 +17,14 @@
   margin-top: -5.2rem;
 }
 
+#shop-header-description {
+  margin-left: 3.5rem;
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+
 @media (max-width: 500px) {
   .shop-header {
     margin-left: 30px;
