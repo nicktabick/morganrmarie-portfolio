@@ -1,3 +1,7 @@
+.hidden-shop-banner, .hidden-instagram-link {
+  display: none;
+}
+
 #shop-background {
   background-color: white;
   position: fixed;
@@ -5,10 +9,16 @@
   height: 100%;
   z-index: -10;
   margin: -5px;
+  overflow: scroll;
 }
 
 #shop-background button {
   color:black!important;
+}
+
+.shop-summary-container {
+  width: 48%!important;
+  float: right;
 }
 
 .shop-header {
@@ -25,6 +35,35 @@
   margin-top: 50px;
 }
 
+.shop-banner {
+  color: black;
+  font-size: 70px;
+  margin-right: 1em;
+  margin-top: 200px;
+}
+
+.shop-description {
+  float: right;
+  margin-right: 1em;
+  color: black;
+  margin-top: -50px;
+}
+
+.down-arrow {
+  color: black;
+  font-size: 40px;
+  margin: auto;
+  padding: 10px;
+  margin-left: 40%;
+  margin-top: 80px;
+}
+
+.morgancodes-image {
+  width: 40%!important;
+  margin-top: 2rem;
+  margin-left: 4.5%;
+}
+
 @media (max-width: 500px) {
   .shop-header {
     margin-left: 30px;
@@ -36,4 +75,72 @@
   font-weight: 600;
   color: black!important;
   text-decoration: none;
+}
+
+.outer-item-container {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/** 
+
+       Responsivity
+
+*/
+
+@media only screen and (max-width: 460px) {
+  .outer-container {
+    text-align: center;
+  }
+
+  .hidden-shop-banner {
+    display: inline-block;
+    color: black;
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .shop-summary-container {
+    text-align: center!important;
+    position: absolute;
+    margin-top: 70px;
+    width: 85%!important;
+    margin-left: 8.5%;
+    margin-right: 4%;
+  }
+
+  .morgancodes-image {
+    width: 80%!important;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .shop-banner {
+    display: none;
+  }
+
+  .shop-description {
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .hidden-instagram-link {
+    color: black;
+    display: inline;
+    font-style: italic;
+  }
+
+  .down-arrow {
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 100px!important;
+  }
+
+  .outer-item-container {
+    margin-top: 245px!important;
+  }
 }
