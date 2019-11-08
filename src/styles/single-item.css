@@ -5,11 +5,12 @@
     display: inline-block;
     margin: 20px;
     text-align: center;
+    margin-bottom: -50px;
 }
 
 .item-title {
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     width: 100%;
     font-weight: 600;
     text-align: center;
@@ -21,7 +22,7 @@
 }
 
 .item-price {
-    font-size: 20px;
+    font-size: 16px;
     color: black;
     text-align: center;
     width: 100%;
