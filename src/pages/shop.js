@@ -65,7 +65,7 @@ class Shop extends Component {
               imageLink="https://www.amazon.com/gp/product/B07JYWTGWF/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07JYWTGWF&linkCode=as2&tag=morgancodes-20&linkId=4cb4aba3ac39a91f1b96eb7819115dd9"/>
             <SingleItem 
               title="Samsung 28&quot; Monitor" 
-              price="$189.99"
+              price="$299.99"
               imageSource="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B07FBNPTDD&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=morgancodes-20" 
               imageLink="https://www.amazon.com/gp/product/B07FBNPTDD/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07FBNPTDD&linkCode=as2&tag=morgancodes-20&linkId=c619285d06536007ed2bfc7a2523f083"/>
             <SingleItem 
