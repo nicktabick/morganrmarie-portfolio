@@ -37,18 +37,26 @@ class Shop extends Component {
             </div>
           </div> 
           <div className="outer-item-container">
-            <SingleItem />
-            <SingleItem />
-            <SingleItem />
-            <SingleItem />
-            <SingleItem />
-            <SingleItem />
-            <SingleItem />
-            <SingleItem />
-            <SingleItem />
-            <SingleItem />
-            <SingleItem />
-            <SingleItem />
+            <SingleItem 
+              title="VIVO Desk" 
+              price="$189.99"
+              imageSource="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B074P7QCYH&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=morgancodes-20" 
+              imageLink="https://www.amazon.com/gp/product/B074P7QCYH/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B074P7QCYH&linkCode=as2&tag=morgancodes-20&linkId=342299734eb80aff6d7a9cc759985b53"/>
+            <SingleItem 
+              title="Clean Code by Robert Martin"
+              price="$37.49"
+              imageSource="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0132350882&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=morgancodes-20" 
+              imageLink="https://www.amazon.com/gp/product/0132350882/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0132350882&linkCode=as2&tag=morgancodes-20&linkId=c4a394acada03984508c487f58ac4efc"/>
+            <SingleItem 
+              title="Logitech MX Master 3"
+              price="$180.00"
+              imageSource="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B07S395RWD&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=morgancodes-20" 
+              imageLink="https://www.amazon.com/gp/product/B074P7QCYH/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B074P7QCYH&linkCode=as2&tag=morgancodes-20&linkId=342299734eb80aff6d7a9cc759985b53"/>
+            <SingleItem 
+              title="Ridiculous Stress Swan-Thing"
+              price="$180.00"
+              imageSource="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B074P7QCYH&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=morgancodes-20" 
+              imageLink="https://www.amazon.com/gp/product/B074P7QCYH/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B074P7QCYH&linkCode=as2&tag=morgancodes-20&linkId=342299734eb80aff6d7a9cc759985b53"/>
           </div>
         </Layout>
       </div>
