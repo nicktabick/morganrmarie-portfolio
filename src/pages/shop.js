@@ -28,7 +28,8 @@ class Shop extends Component {
             <div className="shop-summary-container">
               <h3 className="shop-banner">SHOP MY SETUP</h3>
               <p className="shop-description">Hi! I'm Morgan. I'm a software developer living in Chicago and document my journey on <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/morgan.codes" className="shop-insta-link">Instagram</a>.
-              I receive a ton of question on my page about my setup, so here's some of my favorite items I use and carry everyday.</p>
+              I receive a ton of question on my page about my setup, so here's some of my favorite items I use and carry everyday.
+              <br></br><br></br><br></br><i>These are Amazon Affiliate links.</i></p>
               <FontAwesomeIcon icon = { faArrowDown } className="down-arrow"/>
             </div>
           </div> 
@@ -98,6 +99,9 @@ class Shop extends Component {
               the desk. The books are must-haves, whether you're a beginner or a pro. 
               <br></br><br></br>
               <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/morgan.codes">Follow me on IG</a> to stay updated with the setup 👽💞
+              <br></br><br></br><br></br><p class="footer-disclaimer">Morgan Richardson is a participant in the Amazon Services LLC Associates Program, 
+              an affiliate advertising program designed to provide a means for sites to earn advertising 
+              fees by advertising and linking to Amazon.com. As an Amazon Associate I earn from qualityfing purchases.</p>
             </p>
           </div>
           <div className="shop-bottom-links">
